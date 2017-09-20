@@ -11,5 +11,7 @@ The key components are:
     git clone --bare git@github.com:nullus/dotfiles.git $HOME/.dotfiles
     
     # Alias to run git configuration against bare repository
-    alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
-   
+    alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+    # You will also want
+    config config status.showUntrackedFiles no

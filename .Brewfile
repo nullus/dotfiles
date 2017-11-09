@@ -19,6 +19,9 @@ brew "pyenv-virtualenv"
 brew "openssl"
 brew "readline"
 cask "docker"
+cask "iterm2"
+cask "sublime-text"
+cask "rubymine"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

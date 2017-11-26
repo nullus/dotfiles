@@ -11,5 +11,10 @@ if status --is-interactive
 
     # Configure pyenv
     source (pyenv init -|psub)
-    source (pyenv virtualenv-init -|psub)    
+    source (pyenv virtualenv-init -|psub)
+
+    # Add SSH keys
+    if not ssh-add -l >/dev/null
+        ssh-add -K -A
+    end
 end

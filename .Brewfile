@@ -15,9 +15,7 @@ brew "unbound", restart_service: true
 brew "rbenv"
 brew "pyenv"
 brew "pyenv-virtualenv"
-# Useful dependenices
-brew "openssl"
-brew "readline"
+brew "xhyve"
 cask "docker"
 cask "iterm2"
 cask "sublime-text"
@@ -31,3 +29,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 mas "Microsoft Remote Desktop 8.0", id: 715768417
+mas "Pocket", id: 568494494
+# Useful build dependencies
+brew "openssl"
+brew "readline"

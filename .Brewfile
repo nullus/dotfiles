@@ -16,6 +16,8 @@ brew "rbenv"
 brew "pyenv"
 brew "pyenv-virtualenv"
 brew "xhyve"
+# nmap network scanner
+brew "nmap"
 cask "docker"
 cask "iterm2"
 cask "sublime-text"

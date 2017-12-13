@@ -24,6 +24,7 @@ cask "sublime-text"
 cask "rubymine"
 cask "phpstorm"
 cask "clion"
+cask "franz"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

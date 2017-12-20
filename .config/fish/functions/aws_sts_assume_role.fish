@@ -1,6 +1,6 @@
 function aws_sts_assume_role --description 'Create an AWS security token for a given role, with MFA'
 	if test (count $argv) -lt 1
-		echo 'TODO: balls'
+		echo 'TODO: usage'
 		return 1
 	end
 	read -P 'Enter MFA code: ' token_code

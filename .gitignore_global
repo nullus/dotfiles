@@ -1,0 +1,7 @@
+# Ignore IDE files
+.idea/
+
+# Ignore class files
+*.class
+
+.DS_Store

@@ -13,7 +13,7 @@ if status --is-interactive
         source (rbenv init -|psub)
     end
 
-    if test -e ~/.pyenv
+    if test -e ~/.pyenv/bin
         # Configure for local .pyenv
         set -x PYENV_ROOT ~/.pyenv
         set PATH $PYENV_ROOT/bin $PATH

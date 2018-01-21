@@ -26,6 +26,8 @@ cask "rubymine"
 cask "phpstorm"
 cask "clion"
 cask "daedalus"
+cask "electron-cash"
+cask "visual-studio-code"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

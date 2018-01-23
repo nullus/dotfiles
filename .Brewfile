@@ -19,6 +19,7 @@ brew "xhyve"
 # nmap network scanner
 brew "nmap"
 brew "pandoc"
+brew "awscli"
 cask "docker"
 cask "iterm2"
 cask "sublime-text"

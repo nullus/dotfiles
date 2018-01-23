@@ -27,11 +27,11 @@ if status --is-interactive
 
     # Add SSH keys
     if not ssh-add -l >/dev/null
-        set _ssh_add_args ""
+        set _ssh_add_args -A
         if test (uname -s) = "Darwin"
             set _ssh_add_args $_ssh_add_args -K
         end
-        ssh-add $_ssh_add_args -A
+        ssh-add $_ssh_add_args
     end
 
     test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish

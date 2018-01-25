@@ -1,7 +1,12 @@
 # Ignore IDE files
 .idea/
+.vscode/
 
 # Ignore class files
 *.class
+
+# Terraform state
+.terraform/
+terraform.tfstate.backup
 
 .DS_Store

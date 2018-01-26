@@ -9,4 +9,8 @@
 .terraform/
 terraform.tfstate.backup
 
+# Python
+.eggs/
+*.pyc
+
 .DS_Store

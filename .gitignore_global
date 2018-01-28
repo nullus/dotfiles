@@ -12,5 +12,7 @@ terraform.tfstate.backup
 # Python
 .eggs/
 *.pyc
+# pyenv
+.python-version
 
 .DS_Store

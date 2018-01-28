@@ -10,9 +10,18 @@
 terraform.tfstate.backup
 
 # Python
-.eggs/
 *.pyc
+__pycache__/
+# Python packaging
+.eggs/
+*.egg-info/
+/build/
+/dist/
 # pyenv
 .python-version
+# pytest
+.cache/
+# mypy
+.mypy_cache/
 
 .DS_Store

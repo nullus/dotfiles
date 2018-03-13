@@ -25,18 +25,17 @@ if status --is-interactive
         source (pyenv virtualenv-init -|psub)
     end
 
-    # For sudo-ing
-    if not test "$SSH_AUTH_SOCK" -a -r "$SSH_AUTH_SOCK"
-        set -x SSH_AUTH_SOCK (find /private/tmp -user $USER -name Listeners -print0 2>/dev/null | xargs -0 stat -f "%m %N" | sort -rn | head -1 | cut -f 2- -d \ )
-    end
-
-    # Add SSH keys
-    if not ssh-add -l >/dev/null
-        set _ssh_add_args -A
-        if test (uname -s) = "Darwin"
-            set _ssh_add_args $_ssh_add_args -K
+    # MacOS specific configuration
+    if test (uname -s) = "Darwin"
+        # For sudo-ing
+        if not test "$SSH_AUTH_SOCK" -a -r "$SSH_AUTH_SOCK"
+            set -x SSH_AUTH_SOCK (find /private/tmp -user $USER -name Listeners -print0 2>/dev/null | xargs -0 stat -f "%m %N" | sort -rn | head -1 | cut -f 2- -d \ )
         end
-        ssh-add $_ssh_add_args
+
+        # Add SSH keys
+        if not ssh-add -l >/dev/null
+            ssh-add -K -A
+        end
     end
 
     test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish

@@ -4,4 +4,4 @@
     email = dylan.perry@gmail.com
 
 [core]
-excludesfile = ~/.gitignore_global
+    excludesfile = ~/.gitignore_global

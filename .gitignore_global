@@ -24,4 +24,8 @@ __pycache__/
 # mypy
 .mypy_cache/
 
+# rbenv
+.gitignore_global
+
+# MacOS
 .DS_Store

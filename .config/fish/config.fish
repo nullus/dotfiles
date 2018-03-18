@@ -38,11 +38,9 @@ if status --is-interactive
         end
     end
 
-    test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
-
     # Puppet install
-    set -x PATH $PATH "/opt/puppetlabs/bin"
+    test -d /opt/puppetlabs/bin ; and set -x PATH $PATH "/opt/puppetlabs/bin"
 
     # Activate iTerm2 shell integration
-    source ~/.iterm2_shell_integration.(basename $SHELL)
+    test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 end

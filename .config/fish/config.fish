@@ -38,6 +38,8 @@ if status --is-interactive
         end
     end
 
+    define_aws_profile admin yellow
+
     # Puppet install
     test -d /opt/puppetlabs/bin ; and set -x PATH $PATH "/opt/puppetlabs/bin"
 

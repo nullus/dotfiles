@@ -32,6 +32,7 @@ cask "electron-cash"
 cask "visual-studio-code"
 cask "stargazer"
 cask "anki"
+cask "gpg-suite"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

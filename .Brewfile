@@ -2,6 +2,7 @@ tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "caskroom/cask"
+tap "caskroom/fonts"
 brew "fish"
 brew "httpie"
 brew "jq"
@@ -27,12 +28,16 @@ cask "sublime-text"
 cask "rubymine"
 cask "phpstorm"
 cask "clion"
-cask "daedalus"
-cask "electron-cash"
 cask "visual-studio-code"
 cask "stargazer"
 cask "anki"
 cask "gpg-suite"
+# HODL
+cask "daedalus"
+cask "electron-cash"
+# Typography, bitch!
+cask "font-anonymous-pro"
+# App store
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

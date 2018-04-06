@@ -23,6 +23,8 @@ __pycache__/
 .cache/
 # mypy
 .mypy_cache/
+# Jupyter
+.ipynb_checkpoints/
 
 # rbenv
 .gitignore_global

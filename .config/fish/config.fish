@@ -25,6 +25,12 @@ if status --is-interactive
         source (pyenv virtualenv-init -|psub)
     end
 
+    # Add AWS completions
+    if not set -q aws_completer_path
+        set -g aws_completer_path (type -P aws_completer ^/dev/null)
+    end
+    complete --command aws --no-files --arguments '(__aws_complete)'
+
     # MacOS specific configuration
     if test (uname -s) = "Darwin"
         # For sudo-ing

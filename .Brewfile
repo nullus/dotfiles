@@ -22,6 +22,7 @@ brew "nmap"
 brew "pandoc"
 brew "awscli"
 brew "kubectl"
+brew "ansible"
 cask "docker"
 cask "iterm2"
 cask "sublime-text"
@@ -49,3 +50,5 @@ mas "Pocket", id: 568494494
 # Useful build dependencies
 brew "openssl"
 brew "readline"
+# gettext is used by some autocompletions, pyenv stubs can get in the way here
+brew "gettext"

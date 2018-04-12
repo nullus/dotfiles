@@ -25,6 +25,10 @@ if status --is-interactive
         source (pyenv virtualenv-init -|psub)
     end
 
+    if test -d /usr/local/opt/gettext/bin
+        set PATH $PATH /usr/local/opt/gettext/bin
+    end
+
     # Add AWS completions
     if not set -q aws_completer_path
         set -g aws_completer_path (type -P aws_completer ^/dev/null)

@@ -27,7 +27,12 @@ __pycache__/
 .ipynb_checkpoints/
 
 # rbenv
-.gitignore_global
+.ruby-version
 
 # MacOS
 .DS_Store
+
+# CMake/CLion
+CMakeLists.txt
+cmake-build-debug/
+*.o

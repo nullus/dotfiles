@@ -28,6 +28,7 @@ cask "iterm2"
 cask "sublime-text"
 cask "rubymine"
 cask "phpstorm"
+cask "pycharm"
 cask "clion"
 cask "visual-studio-code"
 cask "stargazer"
@@ -36,6 +37,7 @@ cask "gpg-suite"
 # HODL
 cask "daedalus"
 cask "electron-cash"
+cask "ethereum-wallet"
 # Typography, bitch!
 cask "font-anonymous-pro"
 # App store

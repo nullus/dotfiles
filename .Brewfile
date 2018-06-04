@@ -26,6 +26,7 @@ brew "ansible"
 cask "docker"
 cask "iterm2"
 cask "sublime-text"
+cask "intellij-idea"
 cask "rubymine"
 cask "phpstorm"
 cask "pycharm"
@@ -35,11 +36,21 @@ cask "stargazer"
 cask "anki"
 cask "gpg-suite"
 # HODL
-cask "daedalus"
+# Manual upgrade for Cardano 1.2
+# cask "daedalus"
 cask "electron-cash"
 cask "ethereum-wallet"
 # Typography, bitch!
 cask "font-anonymous-pro"
+# Fun stuff
+cask "the-ur-quan-masters"
+# More creative
+cask "unity"
+cask "freecad"
+cask "blender"
+cask "sketchup"
+# Evaluating 30-day trial
+# mas "Pixelmator Pro", id: 1289583905
 # App store
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434

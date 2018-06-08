@@ -18,6 +18,7 @@
       "Blinking Cursor": true,
       "Columns": 132,
       "ASCII Anti Aliased": true,
+      "Thin Strokes": 0,
       "Non Ascii Font": "SFMono-Regular 13",
       "Use Bold Font": true,
       "Use Italic Font": true,

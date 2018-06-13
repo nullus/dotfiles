@@ -2,6 +2,8 @@
 if type -q brew
     set -x LDFLAGS -L(brew --prefix openssl)"/lib"
     set -x CFLAGS -I(brew --prefix openssl)"/include"
+    # Prefer OpenSSL installed by homebrew
+    set PATH (brew --prefix openssl)"/bin" $PATH
 end
 
 if status --is-interactive

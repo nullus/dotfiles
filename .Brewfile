@@ -23,8 +23,6 @@ brew "pandoc"
 brew "awscli"
 brew "kubectl"
 brew "ansible"
-# Fun
-brew "lolcat"
 cask "docker"
 cask "iterm2"
 cask "sublime-text"
@@ -35,19 +33,20 @@ cask "pycharm"
 cask "clion"
 cask "visual-studio-code"
 cask "ngrok"
-cask "stargazer"
 cask "anki"
 cask "gpg-suite"
 # HODL
+tap "paritytech/paritytech"
 # Manual upgrade for Cardano 1.2
 # cask "daedalus"
-tap "paritytech/paritytech"
 brew "parity"
 cask "electron-cash"
 cask "ethereum-wallet"
+cask "stargazer"
 # Typography, bitch!
 cask "font-anonymous-pro"
 # Fun stuff
+brew "lolcat"
 cask "the-ur-quan-masters"
 # More creative
 cask "unity"

@@ -41,6 +41,8 @@ cask "gpg-suite"
 # HODL
 # Manual upgrade for Cardano 1.2
 # cask "daedalus"
+tap "paritytech/paritytech"
+brew "parity"
 cask "electron-cash"
 cask "ethereum-wallet"
 # Typography, bitch!

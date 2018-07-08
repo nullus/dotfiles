@@ -49,9 +49,12 @@ cask "font-anonymous-pro"
 cask "the-ur-quan-masters"
 # More creative
 cask "unity"
+brew "mono"
+cask "dotnet-sdk"
 cask "freecad"
 cask "blender"
 cask "sketchup"
+cask "gimp"
 # Evaluating 30-day trial
 # mas "Pixelmator Pro", id: 1289583905
 # App store

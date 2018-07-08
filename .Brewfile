@@ -19,6 +19,7 @@ brew "pyenv-virtualenv"
 brew "xhyve"
 # nmap network scanner
 brew "nmap"
+cask "viscosity"
 brew "pandoc"
 brew "awscli"
 brew "kubectl"

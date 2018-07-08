@@ -23,6 +23,8 @@ brew "pandoc"
 brew "awscli"
 brew "kubectl"
 brew "ansible"
+# Fun
+brew "lolcat"
 cask "docker"
 cask "iterm2"
 cask "sublime-text"

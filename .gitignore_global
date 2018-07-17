@@ -16,12 +16,14 @@ __pycache__/
 .eggs/
 *.egg-info/
 /build/
-/dist/
+dist/
 # pyenv
 .python-version
 # pytest
 .cache/
 .pytest_cache/
+# tox
+.tox/
 # mypy
 .mypy_cache/
 # Jupyter

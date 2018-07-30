@@ -12,6 +12,7 @@ brew "packer"
 brew "reattach-to-user-namespace"
 brew "terraform"
 brew "tmux"
+brew "ffmpeg"
 brew "unbound", restart_service: true
 brew "rbenv"
 brew "pyenv"

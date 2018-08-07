@@ -37,6 +37,7 @@ cask "clion"
 cask "visual-studio-code"
 cask "ngrok"
 brew "graphviz"
+brew "groovysdk"
 cask "anki"
 cask "gpg-suite"
 # HODL

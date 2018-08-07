@@ -21,6 +21,7 @@ __pycache__/
 .python-version
 # pytest
 .cache/
+.pytest_cache/
 # mypy
 .mypy_cache/
 # Jupyter

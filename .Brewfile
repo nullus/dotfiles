@@ -39,7 +39,9 @@ cask "ngrok"
 brew "graphviz"
 brew "groovysdk"
 cask "anki"
+# Messaging
 cask "gpg-suite"
+cask "signal"
 # HODL
 tap "paritytech/paritytech"
 # Manual upgrade for Cardano 1.2

@@ -37,7 +37,9 @@ cask "clion"
 cask "visual-studio-code"
 cask "ngrok"
 brew "graphviz"
+# CI development
 brew "groovysdk"
+brew "jenkins"
 cask "anki"
 # Messaging
 cask "gpg-suite"

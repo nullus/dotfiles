@@ -66,6 +66,7 @@ cask "freecad"
 cask "blender"
 cask "sketchup"
 cask "gimp"
+cask "imageoptim"
 # Evaluating 30-day trial
 # mas "Pixelmator Pro", id: 1289583905
 # App store

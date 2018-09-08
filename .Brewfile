@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "caskroom/cask"
 tap "caskroom/fonts"
+tap "caskroom/drivers"
 brew "fish"
 brew "httpie"
 brew "jq"
@@ -67,6 +68,7 @@ cask "blender"
 cask "sketchup"
 cask "gimp"
 cask "imageoptim"
+cask "wacom-intuos-tablet"
 # Evaluating 30-day trial
 # mas "Pixelmator Pro", id: 1289583905
 # App store

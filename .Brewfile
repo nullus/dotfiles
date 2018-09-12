@@ -32,6 +32,8 @@ cask "iterm2"
 cask "sublime-text"
 cask "intellij-idea"
 cask "rubymine"
+# PHP development
+brew "composer"
 cask "phpstorm"
 cask "pycharm"
 cask "clion"

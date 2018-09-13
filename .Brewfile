@@ -47,6 +47,8 @@ cask "anki"
 # Messaging
 cask "gpg-suite"
 cask "signal"
+# Work: daily.co meetings
+cask "google-chrome"
 # HODL
 tap "paritytech/paritytech"
 # Manual upgrade for Cardano 1.2

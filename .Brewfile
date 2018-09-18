@@ -74,6 +74,7 @@ cask "sketchup"
 cask "gimp"
 cask "imageoptim"
 cask "wacom-intuos-tablet"
+mas "Autodesk SketchBook", id: 863486266
 # Evaluating 30-day trial
 # mas "Pixelmator Pro", id: 1289583905
 # App store

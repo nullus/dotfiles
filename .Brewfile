@@ -92,3 +92,5 @@ brew "openssl"
 brew "readline"
 # gettext is used by some autocompletions, pyenv stubs can get in the way here
 brew "gettext"
+# Music/transcoding stuff?
+cask "xld"

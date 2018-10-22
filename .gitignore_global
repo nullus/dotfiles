@@ -28,6 +28,8 @@ dist/
 .mypy_cache/
 # Jupyter
 .ipynb_checkpoints/
+# Code coverage
+.coverage
 
 # rbenv
 .ruby-version

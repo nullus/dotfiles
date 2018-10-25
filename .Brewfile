@@ -18,6 +18,7 @@ brew "unbound", restart_service: true
 brew "rbenv"
 brew "pyenv"
 brew "pyenv-virtualenv"
+brew "pipenv"
 brew "xhyve"
 # nmap network scanner
 brew "nmap"

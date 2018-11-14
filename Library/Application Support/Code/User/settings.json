@@ -1,5 +1,8 @@
 {
     "workbench.colorTheme": "Solarized Dark",
     "editor.fontFamily": "SF Mono",
-    "editor.fontSize": 13
+    "editor.fontSize": 13,
+    "window.zoomLevel": 0,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top"
 }

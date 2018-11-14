@@ -33,9 +33,6 @@ cask "iterm2"
 cask "sublime-text"
 cask "intellij-idea"
 cask "rubymine"
-# PHP development
-brew "composer"
-cask "phpstorm"
 cask "pycharm"
 cask "webstorm"
 brew "npm"
@@ -48,10 +45,7 @@ brew "groovysdk"
 brew "jenkins"
 cask "anki"
 # Messaging
-cask "gpg-suite"
 cask "signal"
-# Work: daily.co meetings
-cask "google-chrome"
 # HODL
 tap "paritytech/paritytech"
 # Manual upgrade for Cardano 1.2

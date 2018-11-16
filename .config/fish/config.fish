@@ -1,10 +1,15 @@
 # Build using homebrew OpenSSL
+
 if type -q brew
-    set -gx LDFLAGS "-L"(brew --prefix openssl)"/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/sqlite/lib"
-    set -gx CPPFLAGS "-I"(brew --prefix openssl)"/include -I/usr/local/opt/zlib/include -I/usr/local/opt/sqlite/include"
+    if not set -q  __brew_prefix_openssl
+        set -U __brew_prefix_openssl (brew --prefix openssl)
+    end
+
+    set -gx LDFLAGS "-L$__brew_prefix_openssl/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/sqlite/lib"
+    set -gx CPPFLAGS "-I$__brew_prefix_openssl/include -I/usr/local/opt/zlib/include -I/usr/local/opt/sqlite/include"
     set -gx PKG_CONFIG_PATH "/usr/local/opt/zlib/lib/pkgconfig:/usr/local/opt/sqlite/lib/pkgconfig"
     # Prefer OpenSSL installed by homebrew
-    set PATH (brew --prefix openssl)"/bin" $PATH
+    set PATH "$__brew_prefix_openssl/bin" $PATH
 end
 
 if status --is-interactive
@@ -16,14 +21,12 @@ if status --is-interactive
         source (rbenv init -|psub)
     end
 
-    if test -e ~/.pyenv/bin
+    if type -q pyenv; and not set -q PYENV_ROOT
         # Configure for local .pyenv
-        set -x PYENV_ROOT ~/.pyenv
-        set PATH $PYENV_ROOT/bin $PATH
-    end
-
-    # Configure pyenv
-    if type -q pyenv
+        set -gx PYENV_ROOT ~/.pyenv
+        if test -e $PYENV_ROOT/bin
+            set PATH $PYENV_ROOT/bin $PATH
+        end
         source (pyenv init -|psub)
         source (pyenv virtualenv-init -|psub)
     end

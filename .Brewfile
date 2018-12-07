@@ -49,7 +49,7 @@ cask "signal"
 # HODL
 tap "paritytech/paritytech"
 # Manual upgrade for Cardano 1.2
-# cask "daedalus"
+cask "daedalus"
 brew "parity"
 cask "electron-cash"
 cask "ethereum-wallet"
@@ -60,6 +60,7 @@ cask "font-anonymous-pro"
 brew "lolcat"
 cask "the-ur-quan-masters"
 # More creative
+cask "appcode"
 cask "unity"
 brew "mono"
 cask "dotnet-sdk"
@@ -71,6 +72,8 @@ cask "gimp"
 cask "imageoptim"
 cask "wacom-intuos-tablet"
 mas "Autodesk SketchBook", id: 863486266
+# 1337 scene shit
+cask "dosbox"
 # Evaluating 30-day trial
 # mas "Pixelmator Pro", id: 1289583905
 # App store

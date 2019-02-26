@@ -5,11 +5,12 @@ if type -q brew
         set -U __brew_prefix_openssl (brew --prefix openssl)
     end
 
-    set -gx LDFLAGS "-L$__brew_prefix_openssl/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/sqlite/lib"
-    set -gx CPPFLAGS "-I$__brew_prefix_openssl/include -I/usr/local/opt/zlib/include -I/usr/local/opt/sqlite/include"
-    set -gx PKG_CONFIG_PATH "/usr/local/opt/zlib/lib/pkgconfig:/usr/local/opt/sqlite/lib/pkgconfig"
-    # Prefer OpenSSL installed by homebrew
-    set PATH "$__brew_prefix_openssl/bin" $PATH
+    set -gx LDFLAGS "-L$__brew_prefix_openssl/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/qt/lib"
+    set -gx CPPFLAGS "-I$__brew_prefix_openssl/include -I/usr/local/opt/zlib/include -I/usr/local/opt/sqlite/include -I/usr/local/opt/qt/include"
+    set -gx PKG_CONFIG_PATH "/usr/local/opt/zlib/lib/pkgconfig:/usr/local/opt/sqlite/lib/pkgconfig:/usr/local/opt/qt/lib/pkgconfig"
+
+    # Prefer OpenSSL installed by homebrew, Qt
+    set PATH "$__brew_prefix_openssl/bin" "/usr/local/opt/qt/bin" $PATH
 end
 
 if status --is-interactive

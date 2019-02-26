@@ -75,6 +75,7 @@ mas "Autodesk SketchBook", id: 863486266
 # 1337 scene shit
 cask "dosbox"
 cask "vlc"
+brew "qt"
 # Evaluating 30-day trial
 # mas "Pixelmator Pro", id: 1289583905
 # App store

@@ -11,6 +11,7 @@ brew "mas"
 brew "maven"
 brew "packer"
 brew "reattach-to-user-namespace"
+cask "the-unarchiver"
 brew "terraform"
 brew "tmux"
 brew "ffmpeg"
@@ -24,6 +25,7 @@ brew "xhyve"
 brew "nmap"
 cask "viscosity"
 brew "pandoc"
+cask "skim"
 brew "awscli"
 brew "kubectl"
 brew "ansible"
@@ -87,6 +89,8 @@ mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 mas "Microsoft Remote Desktop 10", id: 1295203466
 mas "Pocket", id: 568494494
+# For DVI-to-PDF
+cask "mactex"
 # Useful build dependencies
 brew "openssl"
 brew "readline"

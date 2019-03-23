@@ -73,6 +73,7 @@ cask "sketchup"
 cask "gimp"
 cask "imageoptim"
 cask "wacom-intuos-tablet"
+cask "webpquicklook"
 mas "Autodesk SketchBook", id: 863486266
 # 1337 scene shit
 cask "dosbox"

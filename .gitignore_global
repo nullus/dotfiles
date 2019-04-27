@@ -36,6 +36,7 @@ dist/
 
 # MacOS
 .DS_Store
+._*
 
 # CMake/CLion
 CMakeLists.txt

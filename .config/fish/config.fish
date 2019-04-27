@@ -22,7 +22,7 @@ if status --is-interactive
         source (rbenv init -|psub)
     end
 
-    if type -q pyenv; and not set -q PYENV_ROOT
+    if test -e ~/.pyenv; and not set -q PYENV_ROOT
         # Configure for local .pyenv
         set -gx PYENV_ROOT ~/.pyenv
         if test -e $PYENV_ROOT/bin

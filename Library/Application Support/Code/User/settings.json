@@ -4,5 +4,7 @@
     "editor.fontSize": 13,
     "window.zoomLevel": 0,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top"
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

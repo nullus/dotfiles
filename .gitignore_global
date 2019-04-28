@@ -48,3 +48,7 @@ package-lock.json
 
 # docker-compose
 .env
+
+# nohup usually won't be committed
+nohup.out
+

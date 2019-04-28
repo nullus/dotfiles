@@ -15,7 +15,7 @@ cask "the-unarchiver"
 brew "terraform"
 brew "tmux"
 brew "ffmpeg"
-brew "unbound", restart_service: true
+brew "unbound", restart_service: false
 brew "rbenv"
 brew "pyenv"
 brew "pyenv-virtualenv"
@@ -42,6 +42,8 @@ cask "clion"
 cask "visual-studio-code"
 cask "ngrok"
 brew "graphviz"
+# Actual brewing
+cask "beersmith"
 # CI development
 brew "groovysdk"
 brew "jenkins"

@@ -11,6 +11,9 @@ if type -q brew
 
     # Prefer OpenSSL installed by homebrew, Qt
     set PATH "$__brew_prefix_openssl/bin" "/usr/local/opt/qt/bin" $PATH
+
+    # Add to PATH for homebrew
+    set PATH "/usr/local/sbin" $PATH
 end
 
 if status --is-interactive

@@ -30,6 +30,8 @@ dist/
 .ipynb_checkpoints/
 # Code coverage
 .coverage
+# Virtual environments PyCharm/venv
+.venv/
 
 # rbenv
 .ruby-version

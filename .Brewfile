@@ -65,6 +65,7 @@ brew "lolcat"
 cask "the-ur-quan-masters"
 # More creative
 cask "appcode"
+cask "unity-hub"
 cask "unity"
 brew "mono"
 cask "dotnet-sdk"
@@ -80,6 +81,8 @@ mas "Autodesk SketchBook", id: 863486266
 # 1337 scene shit
 cask "dosbox"
 cask "vlc"
+# Browser for using Hangouts
+cask "brave-browser"
 brew "qt"
 # Evaluating 30-day trial
 # mas "Pixelmator Pro", id: 1289583905
@@ -91,6 +94,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 mas "Microsoft Remote Desktop 10", id: 1295203466
+cask "vnc-viewer"
 mas "Pocket", id: 568494494
 # For DVI-to-PDF
 cask "mactex"

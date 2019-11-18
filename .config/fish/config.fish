@@ -35,6 +35,10 @@ if status --is-interactive
         source (pyenv virtualenv-init -|psub)
     end
 
+    if test -d ~/.poetry/bin
+        set PATH ~/.poetry/bin $PATH
+    end
+
     if test -d /usr/local/opt/gettext/bin
         set PATH $PATH /usr/local/opt/gettext/bin
     end

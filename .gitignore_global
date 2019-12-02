@@ -54,3 +54,6 @@ package-lock.json
 # nohup usually won't be committed
 nohup.out
 
+# Scala/sbt
+target/
+project/

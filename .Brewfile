@@ -81,7 +81,7 @@ cask "sketchup"
 cask "gimp"
 cask "darktable"
 cask "imageoptim"
-cask "wacom-intuos-tablet"
+cask "wacom-tablet"
 cask "webpquicklook"
 mas "Autodesk SketchBook", id: 863486266
 cask "handbrake"

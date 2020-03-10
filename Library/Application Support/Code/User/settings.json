@@ -12,5 +12,11 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
+    },
+    "editor.fontLigatures": true,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": false
     }
 }

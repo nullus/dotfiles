@@ -69,4 +69,7 @@ if status --is-interactive
 
     # Activate iTerm2 shell integration
     test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
+    # Fish/home directory symlinks have an issue
+    cd
 end

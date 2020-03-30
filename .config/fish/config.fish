@@ -1,10 +1,14 @@
-# Build using homebrew OpenSSL
+
+if not type -q fish
+    set PATH "/usr/local/bin" $PATH
+end
 
 if type -q brew
     if not set -q  __brew_prefix_openssl
         set -U __brew_prefix_openssl (brew --prefix openssl)
     end
 
+    # Build using homebrew OpenSSL
     set -gx LDFLAGS "-L$__brew_prefix_openssl/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/qt/lib"
     set -gx CPPFLAGS "-I$__brew_prefix_openssl/include -I/usr/local/opt/zlib/include -I/usr/local/opt/sqlite/include -I/usr/local/opt/qt/include"
     set -gx PKG_CONFIG_PATH "/usr/local/opt/zlib/lib/pkgconfig:/usr/local/opt/sqlite/lib/pkgconfig:/usr/local/opt/qt/lib/pkgconfig"

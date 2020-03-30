@@ -55,6 +55,7 @@ brew "jenkins"
 cask "anki"
 # Messaging
 cask "signal"
+cask "discord"
 # HODL
 tap "paritytech/paritytech"
 # Manual upgrade for Cardano 1.2

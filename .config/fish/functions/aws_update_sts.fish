@@ -20,7 +20,7 @@ function aws_update_sts --description 'Create session token using MFA'
     aws configure set profile.token.aws_access_key_id (jq -r .Credentials.AccessKeyId $TMPFILE)
     aws configure set profile.token.aws_secret_access_key (jq -r .Credentials.SecretAccessKey $TMPFILE)
     aws configure set profile.token.aws_session_token (jq -r .Credentials.SessionToken $TMPFILE)
-    set -Ux __aws_sts_expiration (jq -r '.Credentials.Expiration|fromdateiso8601' $TMPFILE) 
+    set -Ux __aws_sts_expiration (jq -r '.Credentials.Expiration|strptime("%Y-%m-%dT%H:%M:%S+00:00")|mktime' $TMPFILE) 
     rm $TMPFILE
     or begin
        echo "Failed to remove temporary credential file: $TMPFILE" >&2

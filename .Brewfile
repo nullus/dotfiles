@@ -82,7 +82,9 @@ cask "sketchup"
 cask "gimp"
 cask "darktable"
 cask "imageoptim"
+# Drivers
 cask "wacom-tablet"
+cask "xbox360-controller-driver-unofficial"
 cask "webpquicklook"
 mas "Autodesk SketchBook", id: 863486266
 cask "handbrake"

@@ -106,6 +106,7 @@ cask "vnc-viewer"
 mas "Pocket", id: 568494494
 # For DVI-to-PDF
 cask "mactex"
+cask "libreoffice"
 # Useful build dependencies
 brew "openssl"
 brew "readline"

@@ -91,7 +91,8 @@ cask "darktable"
 cask "imageoptim"
 # Drivers
 cask "wacom-tablet"
-cask "xbox360-controller-driver-unofficial"
+# FIXME: Has been manually installed (alpha)
+# cask "xbox360-controller-driver-unofficial"
 cask "webpquicklook"
 mas "Autodesk SketchBook", id: 863486266
 cask "handbrake"

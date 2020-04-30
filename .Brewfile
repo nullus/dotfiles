@@ -9,6 +9,7 @@ tap "caskroom/drivers"
 cask "fs-uae"
 brew "composer"
 brew "git"
+brew "make"
 brew "mtr"
 brew "trash"
 brew "fish"
@@ -63,6 +64,7 @@ cask "anki"
 # Messaging
 cask "signal"
 cask "discord"
+cask "zoomus"
 # HODL
 tap "paritytech/paritytech"
 # Manual upgrade for Cardano 1.2

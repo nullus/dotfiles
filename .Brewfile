@@ -26,6 +26,7 @@ brew "tmux"
 brew "ffmpeg"
 brew "unbound", restart_service: false
 brew "rbenv"
+brew "tox"
 brew "pyenv"
 brew "pyenv-virtualenv"
 brew "pipenv"

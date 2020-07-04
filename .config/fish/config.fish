@@ -75,5 +75,7 @@ if status --is-interactive
     test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
     # Fish/home directory symlinks have an issue
-    cd
+    if test (dirname (pwd)) = "/usr/home"
+        cd
+    end
 end

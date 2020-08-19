@@ -46,7 +46,7 @@ cmake-build-debug/
 *.o
 
 # npm
-package-lock.json
+node_modules/
 
 # docker-compose
 .env

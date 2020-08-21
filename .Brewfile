@@ -83,7 +83,6 @@ cask "the-ur-quan-masters"
 # More creative
 cask "appcode"
 cask "unity-hub"
-cask "unity"
 brew "mono"
 cask "dotnet-sdk"
 brew "git-lfs"

@@ -78,4 +78,9 @@ if status --is-interactive
     if test (dirname (pwd)) = "/usr/home"
         cd
     end
+
+    # Config for iTerm2 emoji rendering
+    if test -n "$TERM_PROGRAM" -a "$TERM_PROGRAM" = "iTerm.app"
+        set -g fish_emoji_width 2
+    end
 end

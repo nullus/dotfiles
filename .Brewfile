@@ -75,6 +75,8 @@ brew "parity"
 cask "electron-cash"
 cask "ethereum-wallet"
 cask "stargazer"
+# For Agronico CRM
+brew "postgresql"
 # Typography, bitch!
 cask "font-anonymous-pro"
 # Fun stuff
@@ -83,6 +85,7 @@ cask "the-ur-quan-masters"
 # More creative
 cask "appcode"
 cask "unity-hub"
+cask "rider"
 brew "mono"
 cask "dotnet-sdk"
 brew "git-lfs"

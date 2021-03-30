@@ -57,3 +57,4 @@ nohup.out
 
 # Scala/sbt
 target/
+.bsp/
